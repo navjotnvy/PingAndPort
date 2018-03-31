@@ -28,6 +28,7 @@ with open(os.devnull, "wb") as limbo:
                     flag += 1
                 else:
                     flag = 0
+
     hostIP = input_ip.rsplit('.', 1)[0]
     for n in xrange(50, 100):
         ip=hostIP+".{0}".format(n)
